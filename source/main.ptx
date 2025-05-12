@@ -6,7 +6,7 @@
 
   <book xml:id="College-Algebra">
     <title>College Algebra</title>
-    <subtitle>An example to get you started</subtitle>
+    <subtitle>Linear and Quadratic Equations in One variable</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
