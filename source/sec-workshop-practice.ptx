@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-workshop-practice" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Workshop Practice</title>
+
+  <p> Text of section.mmk ijiimimimimi </p>
+<definition>
+  <p>
+    Linear Equation in Two Variables is the equation of the form:
+    <me> Ax+By=C </me>
+  </p>
+  
+  <p>where <m>A,B,C</m> are real numbers. Note that <m>A</m> and <m>B</m> cannot be both <m>0</m> simultaneously. Either<m>A</m> can be <m>0</m> or <m>B</m> can be <m>0</m>, but not both at the same.(See what happens if we plug in zeros for both <m>A</m> and <m>B</m>.)</p>
+  <p>A quick reminder: the solution to a linear equation in two variables is an ordered pair that makes the equation true.</p>
+  <p>Every linear equation has infinitely many solutions, forming a straight line on a plane. In other words, the graph of any linear equation in two variables is always a straight line.</p>
+  
+</definition>
+
+<definition xml:id="def-system-of-linear-equations-in-two-variables">
+  <statement>
+    <p>Two-Variable Linear Systems contain two linear equations with two variables.
+      <me>
+        \begin{cases}
+          A_1 x + B_1 y = C
+          A_2 x = C - B_2 y
+        \end{cases}
+      </me>
+      
+    </p>
+    <p>A solution of a system of equations in two variables is an ordered pair of numbers that is a solution to both equations in the system.
+    </p>
+  </statement>
+</definition>
+
+</section>

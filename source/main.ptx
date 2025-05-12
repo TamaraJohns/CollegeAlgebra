@@ -6,14 +6,19 @@
 
   <book xml:id="College-Algebra">
     <title>College Algebra</title>
-    <subtitle>A New Coursbiuiiuninie</subtitle>
+    <subtitle>A New Course</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
 
+     <!-- Include chapters -->
+    <xi:include href="./ch-workshop-practice.ptx" />
+    
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
 
+   
+    
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
