@@ -38,14 +38,4 @@
     
 </p>
 </example>
-
-<figure xml:id="test">
-  <caption>test</caption>
-  <image>
-    <shortdescription>test</shortdescription>
-    <prefigure xmlns="https://prefigure.org" label="test-prefigure">
-      <xi:include href="prefigure/prefigure-slope-field.xml" />
-    </prefigure>
-  </image>
-</figure>
 </section>
