@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition>f(x)=2*x+4</definition>
+  <coordinates bbox="(-10,-10,10,10)">
+  <grid-axes xlabel="x" ylabel="y"/>
+  <graph function="f" alignment="ne">
+  </graph>
+  <label anchor="(1,3)" alignment="east">
+    <m>f(x)=2x+4</m>
+  </label>
+  </coordinates>
+</diagram>
+

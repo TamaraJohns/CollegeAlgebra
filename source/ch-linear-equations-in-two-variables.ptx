@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-linear-equations-in-two-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Equations In Two Variables</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-linear-equations-in-two-variables.ptx" />
+
+</chapter>

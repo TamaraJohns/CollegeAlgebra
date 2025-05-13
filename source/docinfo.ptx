@@ -19,7 +19,14 @@
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
-  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} </macros>
+  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} 
+    \newcommand{\deriv}[2]{\displaystyle \frac{d#1}{d#2}}
+    \newcommand{\real}{\Bbb R}
+  </macros>
+  <prefigure-preamble xmlns="https://prefigure.org">
+    <graph stroke="green"/>
+    <point style="diamond" size="5" fill="blue" outline="yes"/>
+  </prefigure-preamble>
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
