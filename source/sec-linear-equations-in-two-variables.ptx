@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-linear-equations-in-two-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Equations In Two Variables</title>
+
+  <definition xml:id="def-linear-equation-in-two-variables">
+  <statement>
+    <p>
+    Linear Equation in Two Variables is the equation of the form:
+    <me> Ax+By=C </me>
+      
+    </p>
+    <p>where <m>A,B,C</m> are real numbers. Note that <m>A</m> and <m>B</m> cannot be both <m>0</m> simultaneously. Either<m>A</m> can be <m>0</m> or <m>B</m> can be <m>0</m>, but not both at the same.(See what happens if we plug in zeros for both <m>A</m> and <m>B</m>.)</p>
+  <p>A quick reminder: the solution to a linear equation in two variables is an ordered pair that makes the equation true.</p>
+  <p>Every linear equation has infinitely many solutions, forming a straight line on a plane. In other words, the graph of any linear equation in two variables is always a straight line.</p>
+  
+  </statement>
+</definition>
+
+<figure xml:id="graph-of-line">
+  <caption>Graph of a Linear Equation in Two Variables <m>3x+4y=12</m></caption>
+    <image>
+      <shortdescription>graph of a linear function in definition</shortdescription>
+      <prefigure xmlns="https://prefigure.org" label="graph-of-line-def">
+        <xi:include href="prefigure/graph-of-line-def.xml"/>
+      </prefigure>  
+    </image>
+</figure>
+</section>

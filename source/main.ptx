@@ -12,13 +12,12 @@
     <xi:include href="./frontmatter.ptx" />
 
      <!-- Include chapters -->
+    <xi:include href="./ch-linear-equations-in-two-variables.ptx" />
     <xi:include href="./ch-workshop-practice.ptx" />
-    
-    <!-- Include chapters -->
     <xi:include href="./ch-chapter-title.ptx" />
+    <xi:include href="./ch-Logs.ptx" />
 
-   
-    
+       
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
