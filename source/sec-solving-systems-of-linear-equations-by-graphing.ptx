@@ -43,9 +43,9 @@
 
 <!-- INSERT TABLE OF ORFERED PAIR SOLUTIONS -->
     <figure xml:id="systems-of-equations-graphing-unique-second-line">
-        <caption>Graph of the first equation <m>y=2x-6</m></caption>
+        <caption>Graph of both equation <m>y=2x-6</m> and  <m>x+3y=10</m></caption>
           <image width="60%">
-            <shortdescription>graph of the first equation unique solution of system of equations by graphing</shortdescription>
+            <shortdescription>graph of both equation unique solution of system of equations by graphing</shortdescription>
               <prefigure xmlns="https://prefigure.org" label="systems-of-equations-graphing-unique-second-line">
                 <xi:include href="prefigure/systems-of-equations-graphing-unique-second-line.xml"/>
               </prefigure>  
