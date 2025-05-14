@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-systems-of-linear-equations-into" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Systems of Linear Equations</title>
+
+  <p> To begin, recall the definition of Linear Equations In Two Variables by clicking here - <xref ref="def-linear-equation-in-two-variables"/>  </p>
+
+
+<definition xml:id="def-system-of-linear-equations-in-two-variables">
+  <statement>
+    <p>Two-Variable Linear Systems contains two linear equations with two variables.
+      <me>
+        \begin{cases}
+          A_1 x + B_1 y \amp = C_1 \\
+          A_2 x + B_2 y \amp = C_2 
+        \end{cases}
+      </me>
+      
+    </p>
+    <p>A solution of a system of equations in two variables is an ordered pair of numbers that is a solution to both equations in the system.
+    </p>
+  </statement>
+</definition>
+<example>
+  <p>Determine whether <m>(-3,1)</m> is a solution to the system
+    <me> \begin{cases}
+          x - y \amp = -4 \\
+          x + 5 y \amp = 2. 
+        \end{cases}
+    </me>
+  </p>  
+<p>To answer this question, we must plug the coordinates <m>(-3,1)</m> into the equations to verify that both equations yield true statements. If one of the equations does not, the ordered pair is not a solution. 
+  <md>
+    <mrow> \amp (-3) - (1) = -4 \amp \amp\implies\amp -4 \amp = -4     \amp TRUE </mrow>
+    <mrow>\amp (-3) + 5 (1) = 2\amp \amp\implies\amp 2 \amp = 2     \amp  TRUE </mrow>
+  </md>
+  <!-- <me> \begin{cases}
+      \amp (-3) - (1) \amp = -4 \amp \implies \amp -4 \amp = -4 \amp TRUE\\
+      \amp (-3) + 5 (1) \amp = 2    \amp \implies \amp 2 \amp = 2 \amp TRUE
+     \end{cases} 
+    </me> -->
+Since both equations yield true statements, we conclude that <m>(-3,1)</m>  is a solution to the system.
+</p>
+</example>
+<example>
+  <p>Determine whether <m>(4,2)</m> is a solution to the system
+    <me> \begin{cases}
+          2 x - 5 y \amp = -2 \\
+          3 x + 4 y \amp = 4. 
+        \end{cases}
+    </me>
+  </p>  
+<p>We must plug the coordinates <m>(4,2)</m> into the equations to verify that both equations yield true statements. If one of the equations does not, the ordered pair is not a solution. 
+  <md>
+    <mrow> \amp 2 (4) - 5 (2) = -2 \amp \amp\implies\amp -2 \amp = -2\amp\amp TRUE </mrow>
+    <mrow>\amp 3 (4) + 4 (2) = 4\amp \amp\implies\amp 20 \amp = 4\amp\amp FALSE </mrow>
+  </md>
+  <!-- <me> \begin{cases}
+      2 (4) - 5 (2) \amp = -2 \amp \implies -2 \amp = -2 \amp TRUE\\
+      3 (4) + 4 (2) \amp = 4 \amp \implies  20 \amp = 4 \amp FALSE
+     \end{cases} 
+    </me> -->
+The second equation yielded a false statement, thus <m>(4,2)</m>  is  not a solution to the system.
+</p>
+</example>
+</section>

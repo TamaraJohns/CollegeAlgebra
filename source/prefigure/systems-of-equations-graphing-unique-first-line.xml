@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+  <definition>f(x)=2*x-6</definition>
+  <coordinates bbox="(-10,-10,10,10)">
+  <grid-axes xlabel="x" ylabel="y"/>
+  <graph function="f" alignment="ne">
+  </graph>
+  <label anchor="(1,f(1))" alignment="east">
+    <m>y=2x-6</m>
+  </label>
+  </coordinates>
+</diagram>

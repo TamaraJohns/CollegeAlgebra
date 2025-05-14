@@ -19,7 +19,7 @@
 
 <figure xml:id="graph-of-line">
   <caption>Graph of a Linear Equation in Two Variables <m>3x+4y=12</m></caption>
-    <image>
+    <image width="60%">
       <shortdescription>graph of a linear function in definition</shortdescription>
       <prefigure xmlns="https://prefigure.org" label="graph-of-line-def">
         <xi:include href="prefigure/graph-of-line-def.xml"/>

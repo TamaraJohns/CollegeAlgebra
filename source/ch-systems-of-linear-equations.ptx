@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-systems-of-linear-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Systems of Linear Equations </title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-systems-of-linear-equations-into.ptx" />
+  <xi:include href="sec-solving-systems-of-linear-equations-by-graphing.ptx" />
+
+</chapter>

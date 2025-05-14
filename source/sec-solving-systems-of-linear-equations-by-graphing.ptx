@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-solving-systems-of-linear-equations-by-graphing" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solving Systems of Linear Equations by Graphing</title>
+
+  <p> Since a solution of a system of equations is common to both equations, it is also a point common to the graphs of both equations. To find the solution of a system of two linear equations, we graph the equations and see where the lines intersect. </p>
+<example>
+  <p> Solve the system of equations by graphing
+    <me>
+      \begin{cases}
+          2 x - y \amp = 6 \\
+          x + 3 y \amp =10. 
+        \end{cases}
+    </me>   
+      We can graph a linear equation by finding two ordered pair solutions or solving the equation for <m>y</m> and using the <m>y-</m>intercept and the slope. </p>
+  <p>As the method of graphing is often our choice, I personally like solving for <m>y</m> and using the <m>y-</m>intercept and the slope, especially when the <m>y-</m>intercept is an integer. </p>
+  <p>To verify if the <m>y-</m>intercept is an integer, check if the constant on the right side of the equation is a multiple (divisible) of the coefficient of <m>y</m>.</p>
+  <p> In the first equation, <m>2x-y=6</m>, the constant on the right side, <m>6</m>, is divisible by the coefficient of <m>y</m>, <m>-1</m>, indicating that the y-intercept will be an integer. In contrast, in the second equation, <m>x+3y=10</m>, the y-intercept will not be an integer since the constant on the right side, <m>10</m>, is not divisible by the coefficient of <m>y</m>, <m>3</m>.</p>
+  <p>Thus, to graph the first line, I will solve the equation for , <m>y</m>, while for the second, I will calculate two ordered pair solutions (make a <m>t-</m>table).
+  To solve the first equation for <m>y</m>, move the <m>x-</m>term to the right (flip the sign) and divide out the coefficient of <m>y:</m></p>
+    <md>
+      <mrow> 2 x - y \amp= 6 </mrow>
+      <mrow>- y \amp= - 2 x + 6</mrow>
+      <mrow>y \amp= 2 x - 6 </mrow>
+    </md>
+  <p>It is now in the slope-intercept form. To graph it, we start by plotting the <m>y-</m>intercept, <m>(0,-6)</m>,  and then find the additional point(s) using the slope <m>m = 2 = 2/1</m> (rise over run, two units up, one to the right).</p>
+
+      <figure xml:id="systems-of-equations-graphing-unique-first-line">
+        <caption>Graph of the first equation <m>y=2x-6</m></caption>
+          <image width="60%">
+            <shortdescription>graph of the first equation unique solution of system of equations by graphing</shortdescription>
+              <prefigure xmlns="https://prefigure.org" label="systems-of-equations-graphing-unique-first-line">
+                <xi:include href="prefigure/systems-of-equations-graphing-unique-first-line.xml"/>
+              </prefigure>  
+          </image>
+      </figure>
+
+  <p>To graph the second equation, I will find two ordered pairs by plugging a random value for <m>x</m> or <m>y</m> and solving for the remaining variable. While no rule favors one variable over the other for which we plug the values, checking the coefficients is helpful. If one of the variables in the equation has a coefficient of <m>1</m> or <m>- 1</m>, it becomes easier to solve for that variable. Thus, I would plug the values for the other variable and solve for the “easy one.” </p>
+
+  <p>In our second equation, <m>x+3y=10</m>, the coefficient of <m>x</m> is <m>1</m>. Therefore, I'll calculate two ordered pairs by substituting values for <m>y</m> and solving for <m>x</m>.</p> 
+
+  <p>Quick reminder: I choose values to <m>y</m> at random. Once I calculate the <m>x-</m> vales, I will record the solutions in the form of a <m>t-</m>table, and moving forward, I will refer to this approach as the <m>t-</m>table method.</p>
+
+<!-- INSERT TABLE OF ORFERED PAIR SOLUTIONS -->
+    <figure xml:id="systems-of-equations-graphing-unique-second-line">
+        <caption>Graph of the first equation <m>y=2x-6</m></caption>
+          <image width="60%">
+            <shortdescription>graph of the first equation unique solution of system of equations by graphing</shortdescription>
+              <prefigure xmlns="https://prefigure.org" label="systems-of-equations-graphing-unique-second-line">
+                <xi:include href="prefigure/systems-of-equations-graphing-unique-second-line.xml"/>
+              </prefigure>  
+          </image>
+      </figure>
+</example>
+</section>
